@@ -1,1 +1,50 @@
-a
+ENTRAR NO GITHUB
+
+ENTRAR NO VS CODE 
+
+FECHAR PASTA(se estiver aberta)
+
+ir no botao SOURCE-CONTROL
+
+BOTAO CLONE-REPOSITORY
+
+COPIAR URL DO REPOSITORIO NO GITHUB E COLAR NO VS CODE E TECLAR "EN
+
+clonar o diretorio em c:/xamp/htdocs e clicar em OPEN
+
+tela azul se confia em author clicar em sim
+
+---------FIM DA CLONAGEM DO REPOSITORIO DO GITHUB---------------
+
+
+-------------CONFIGURAR TERMINAL-------------
+
+IR NO MENU TERMINAL-->NEW TERMINAL
+
+DIGITAR OS  COMANDOS:
+git config --global user.email "carolainevictoria8@gmail.com"
+git config --global user.name "Carolaine5cv"
+
+fechar TERMINAL--------------------------------------------------------------
+--------------------enviar mudanças para GITHUB-------------------------
+
+salvar as mudanças "ctrl+s"
+
+ir no source-CONTROL
+
+em changes vlicar +
+
+colocar mensagem no comit 
+
+colocar mensagem no commit
+
+clicar na setinha do botao commit(azul)
+
+clicar em commit & push
+
+na primeira vez dar as autorizaçoes - na segunda nao sera mais necessario
+
+ver no github se foi atualizado
+
+-------------------fim------------------------------
+
