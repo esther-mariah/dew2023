@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+<form action="" method="">
+    <div>
+    <label for="nome_usuario">Nome:</label><!--label insere um rotulo-->
+    <!--input text é um campo de entrada de texto-->
+    <input type="text" name="nome_usuario" id="nome_usuario" size="77"
+     maxlength="30" minlength="5" placeholder="digite seu nome"> 
+</div>
+<br>
+<div>
+<label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" required>
+</div>
+<br>
+<div>
+    <label for="">hobbies</label>
+    <br>
+    <input type="checkbox" name="esporte" id="esporte">
+    <label for="esporte">esporte</label>
+    <input type="checkbox" name="cinema" id="cinema">
+    <label for="cinema">cinema</label>
+    <input type="checkbox" name="leitura" id="leitura">
+    <label for="leitura">leitura</label>
+</div>
+<br>
+<div>
+    <label for="">Escolha o Tipo:</label>
+    <input type="radio" name="tipo" id="adulto"checked>
+    <label for="adulto">adulto</label>
+    <input type="radio" name="tipo" id="adolecente">
+    <label for="adolecente">Adolecente</label>
+    <input type="radio" name="tipo" id="crianca">
+    <label for="crianca">Criança</label>
+</div>
+<br>
+<div>
+<label for="arquivo">escolha um arquivo:</label>
+<input type="file" name="arquivo" id="arquivo" accept="imagem/png, imagem/jpg">
+</div> 
+<br>
+<div>
+<label for="">Escolha uma opção</label>
+<select name="opc" id="opc">
+    <option value="tsi">TSI</option>
+    <option value="tme">TME</option>
+    <option value="inf">INF</option>
+    <option value="adm">ADM</option>
+</select>
+</div>
+<br>
+<div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="deixe seu recado"></textarea>
+</div>
+<div>
+    <button type="submit">enviar</button>
+   <button type="reset">apagar</button>
+   <!------------Botões-----------------
+      <button type="submit">enviar</button>= enviar
+ <button type="reset">apagar</button>= apagar-->
+ </div>
+
+</form>
+    
+</body>
+</html>
