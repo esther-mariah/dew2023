@@ -1,0 +1,12 @@
+div{
+    background-color: rgb(237, 210, 252); /*altera cor de fundo*/
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/*altera tipo da fonte*/
+    font-size: 30px;/*altera o tamanho da fonte*/
+}
+
+div li{ 
+    font-family: 'Franklin Gothic Mediun', 'Arial Narrow',  serif;
+}
+h1,h2{ /*aplicando a regra CSS para mais de um seletor*/
+font-size: 32px;
+}
