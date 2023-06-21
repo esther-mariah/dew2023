@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.t
+{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    right: 350px;
+    font-size: 18px;
+}
+
+.i
+{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    width: 2900;
+    height: 1740;
+}
